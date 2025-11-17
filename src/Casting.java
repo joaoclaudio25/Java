@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import static java.lang.Math.*;
+
 public class Casting {
 
     public static void main(String[] args) {
@@ -13,7 +15,7 @@ public class Casting {
 
         // arredonda para cima antes de converter
         int valorInt = (int) (altura * 100);
-        Math.round(altura);
+        round(altura);
 
         System.out.println("Valor arredondado para cima em cm: " + valorInt);
 
